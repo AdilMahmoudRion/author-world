@@ -1,0 +1,66 @@
+[
+  {
+    "author": "William Shakespeare",
+    "nationality": "English",
+    "language": "English",
+    "numberOfBooks": 42,
+    "salary": 50000,
+    "img": "https://en.wikipedia.org/wiki/William_Shakespeare#/media/File:Shakespeare.jpg"
+  },
+  {
+    "author": "Agatha Christie",
+    "nationality": "English",
+    "language": "English",
+    "numberOfBooks": 85,
+    "salary": 43200,
+    "img": "https://en.wikipedia.org/wiki/Agatha_Christie#/media/File:Agatha_Christie.png"
+  },
+  {
+    "author": "Barbara Cartland",
+    "nationality": "English",
+    "language": "English",
+    "numberOfBooks": 723,
+    "salary": 23400,
+    "img": "https://en.wikipedia.org/wiki/Barbara_Cartland#/media/File:Dame_Barbara_Cartland_Allan_Warren.jpg"
+  },
+  {
+    "author": "Danielle Steel",
+    "nationality": "American",
+    "language": "English",
+    "numberOfBooks": 179,
+    "salary": 34500,
+    "img": "https://en.wikipedia.org/wiki/Harold_Robbins#/media/File:Harold_Robbins_(1979).jpg"
+  },
+  {
+    "author": "Harold Robbins",
+    "nationality": "American",
+    "language": "English",
+    "numberOfBooks": 23,
+    "salary": 50546,
+    "img": "https://en.wikipedia.org/wiki/Georges_Simenon#/media/File:Georges_Simenon_(1963)_without_hat_by_Erling_Mandelmann.jpg"
+  },
+  {
+    "author": "Georges Simenon",
+    "nationality": "Belgian",
+    "language": "French",
+    "numberOfBooks": 570,
+    "salary": 34220,
+    "img": "https://en.wikipedia.org/wiki/Enid_Blyton#/media/File:Enid_Blyton_2.jpg"
+  },
+  {
+    "author": "Enid Blyton",
+    "nationality": "English",
+    "language": "English",
+    "numberOfBooks": 800,
+    "salary": 650340,
+    "img": "https://en.wikipedia.org/wiki/Sidney_Sheldon#/media/File:Sidney_Sheldon.jpg"
+  },
+  {
+    "author": "Sidney Sheldon",
+    "nationality": "American",
+    "language": "English",
+    "numberOfBooks": 21,
+    "salary": 89000,
+    "img": "https://en.wikipedia.org/wiki/J._K._Rowling#/media/File:J._K._Rowling_2010.jpg"
+  }
+]
