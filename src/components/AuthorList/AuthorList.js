@@ -1,14 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import AddCart from "../AddCart/AddCart";
 import Author from "../Author/Author";
 import "./AuthorList.css";
 
 const AuthorList = () => {
   const [Authors, setAuthor] = useState([]);
-  fetch("./AuthorList.JSON")
-    .then((res) => res.json())
-    .then((data) => setAuthor(data));
-  
+  useEffect(() => {
+    fetch("./AuthorList.JSON")
+      .then((res) => res.json())
+      .then((data) => setAuthor(data));
+  }, []);
+    
   const [addAuthor, setAddAuthor] = useState([]);
    const authorAddToCart = (author) => {
      const newCart = [...addAuthor, author];
@@ -19,17 +21,14 @@ const AuthorList = () => {
       <div className="author-list">
         {Authors.map((author) => (
           <Author
-            key = {author.author}
+            key={author.author}
             authorAddToCart={authorAddToCart}
-            author={author}>
-            
-            </Author>
+            author={author}
+          ></Author>
         ))}
       </div>
       <div className="added-list">
-        <AddCart
-          addAuthor={addAuthor}
-        ></AddCart>
+        <AddCart addAuthor={addAuthor}></AddCart>
       </div>
     </div>
   );
