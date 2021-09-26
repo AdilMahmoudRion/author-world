@@ -9,16 +9,22 @@ const AddCart = (props) => {
     }
     return (
       <div className="cart">
-        <table>
-          <tr>
-            <th>Company: </th>
-            <td>{props.addAuthor.length}</td>
-          </tr>
-          <tr>
-            <th>Total: </th>
-            <td>{total}</td>
-          </tr>
-        </table>
+        <div className="cart-header">
+            <h3 className="add-list">Add List</h3>
+          <table>
+            <tr>
+              <th>Selected: </th>
+              <td>{props.addAuthor.length}</td>
+            </tr>
+            <tr>
+              <th>Total: </th>
+              <td>{total}</td>
+            </tr>
+          </table>
+        </div>
+        <div>
+
+        </div>
       </div>
     );
 };
