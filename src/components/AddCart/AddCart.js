@@ -13,12 +13,12 @@ const AddCart = (props) => {
             <h3 className="add-list">Add List</h3>
           <table>
             <tr>
-              <th>Selected: </th>
+              <th>Selected person: </th>
               <td>{props.addAuthor.length}</td>
             </tr>
             <tr>
-              <th>Total: </th>
-              <td>{total}</td>
+              <th>Total Salary: </th>
+              <td>${total}</td>
             </tr>
           </table>
         </div>

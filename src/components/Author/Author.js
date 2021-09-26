@@ -34,14 +34,14 @@ const Author = (props) => {
           </tr>
           <tr>
             <td>Salary</td>
-            <td>: {salary}</td>
+            <td>: ${salary}</td>
           </tr>
         </table>
         <button
           className="button"
           onClick={() => props.authorAddToCart(props.author)}
         >
-          {shoppingCart}Add Cart
+          {shoppingCart}Hire Now
         </button>
       </div>
     </div>

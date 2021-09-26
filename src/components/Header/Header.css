@@ -1,8 +1,9 @@
 .header{
     text-align: center;
-    background-color: black;
-    height: 100px;
-    color: white;
-    font-weight: 700;
-    font-size: 30px;
+  width: 100%;
+padding: 15px 10px;
+	color: #fff;
+  	font: 700 24px sans-serif;
+	background: #027ad6;
+  border: none;
 }
