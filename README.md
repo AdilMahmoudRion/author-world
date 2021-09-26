@@ -4,6 +4,6 @@ This is a list of best-selling fiction authors to date, in any language. While f
 
 ### See also
 #### -- Lists of writers
--- List of best-selling books
--- List of best-selling novels in the United States
+#### -- List of best-selling books
+#### -- List of best-selling novels in the United States
 
