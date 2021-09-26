@@ -1,5 +1,9 @@
 .Author{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: blue;
+    background-color: rgb(220, 220, 221);
+    padding: 20px;
+}
+.image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }

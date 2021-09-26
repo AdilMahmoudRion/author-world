@@ -1,4 +1,10 @@
 .container{
+    margin: 10px 40px;
     display: grid;
     grid-template-columns: 3fr 1fr;
+}
+.author-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
 }

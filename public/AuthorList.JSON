@@ -5,7 +5,7 @@
     "language": "English",
     "numberOfBooks": 42,
     "salary": 50000,
-    "img": "https://en.wikipedia.org/wiki/William_Shakespeare#/media/File:Shakespeare.jpg"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/330px-Shakespeare.jpg"
   },
   {
     "author": "Agatha Christie",
@@ -13,7 +13,7 @@
     "language": "English",
     "numberOfBooks": 85,
     "salary": 43200,
-    "img": "https://en.wikipedia.org/wiki/Agatha_Christie#/media/File:Agatha_Christie.png"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Agatha_Christie.png"
   },
   {
     "author": "Barbara Cartland",
@@ -21,7 +21,7 @@
     "language": "English",
     "numberOfBooks": 723,
     "salary": 23400,
-    "img": "https://en.wikipedia.org/wiki/Barbara_Cartland#/media/File:Dame_Barbara_Cartland_Allan_Warren.jpg"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Dame_Barbara_Cartland_Allan_Warren.jpg"
   },
   {
     "author": "Danielle Steel",
@@ -29,7 +29,7 @@
     "language": "English",
     "numberOfBooks": 179,
     "salary": 34500,
-    "img": "https://en.wikipedia.org/wiki/Harold_Robbins#/media/File:Harold_Robbins_(1979).jpg"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/4/46/Harold_Robbins_%281979%29.jpg"
   },
   {
     "author": "Harold Robbins",
@@ -37,7 +37,7 @@
     "language": "English",
     "numberOfBooks": 23,
     "salary": 50546,
-    "img": "https://en.wikipedia.org/wiki/Georges_Simenon#/media/File:Georges_Simenon_(1963)_without_hat_by_Erling_Mandelmann.jpg"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/4/46/Harold_Robbins_%281979%29.jpg"
   },
   {
     "author": "Georges Simenon",
@@ -45,7 +45,7 @@
     "language": "French",
     "numberOfBooks": 570,
     "salary": 34220,
-    "img": "https://en.wikipedia.org/wiki/Enid_Blyton#/media/File:Enid_Blyton_2.jpg"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Georges_Simenon_%281963%29_without_hat_by_Erling_Mandelmann.jpg"
   },
   {
     "author": "Enid Blyton",
@@ -53,7 +53,7 @@
     "language": "English",
     "numberOfBooks": 800,
     "salary": 650340,
-    "img": "https://en.wikipedia.org/wiki/Sidney_Sheldon#/media/File:Sidney_Sheldon.jpg"
+    "img": "https://upload.wikimedia.org/wikipedia/en/a/a3/Enid_Blyton_2.jpg"
   },
   {
     "author": "Sidney Sheldon",
@@ -61,6 +61,6 @@
     "language": "English",
     "numberOfBooks": 21,
     "salary": 89000,
-    "img": "https://en.wikipedia.org/wiki/J._K._Rowling#/media/File:J._K._Rowling_2010.jpg"
+    "img": "https://upload.wikimedia.org/wikipedia/en/f/f6/Sidney_Sheldon.jpg"
   }
 ]
