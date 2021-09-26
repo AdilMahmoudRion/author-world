@@ -1,9 +1,45 @@
-.Author{
-    background-color: rgb(220, 220, 221);
-    padding: 20px;
+.Author {
+  padding: 10px;
+      background: rgb(236, 236, 238);
+      border-radius: 10px;
 }
-.image{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+.Author:hover{
+      box-shadow: 5px 5px 21px #e8e8e8, -5px -5px 21px #ffffff;
+    border: 1px solid lightgray;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.image-div{
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 100%;
+}
+.heading {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left;
+  width: 100%;
+}
+td {
+  width: 50%;
+  text-align: left;
+  padding: 2px 8px;
+}
+/* .table-data{
+    width: 150px;
+} */
+.button {
+  width: 100%;
+  padding: 5px 0;
+  background-color: gold;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 10px;
 }

@@ -18,7 +18,12 @@ const AuthorList = () => {
     <div className="container">
       <div className="author-list">
         {Authors.map((author) => (
-          <Author authorAddToCart={authorAddToCart} author={author}></Author>
+          <Author
+            key = {author.author}
+            authorAddToCart={authorAddToCart}
+            author={author}>
+            
+            </Author>
         ))}
       </div>
       <div className="added-list">

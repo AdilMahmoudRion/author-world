@@ -1,4 +1,5 @@
 import React from 'react';
+import './AddCart.css'
 
 const AddCart = (props) => {
     const { addAuthor } = props;
@@ -7,9 +8,17 @@ const AddCart = (props) => {
         total = total + salaries.salary;
     }
     return (
-      <div>
-            <h1>adil:{props.addAuthor.length}</h1>
-            <h3>Total: {total}</h3>
+      <div className="cart">
+        <table>
+          <tr>
+            <th>Company: </th>
+            <td>{props.addAuthor.length}</td>
+          </tr>
+          <tr>
+            <th>Total: </th>
+            <td>{total}</td>
+          </tr>
+        </table>
       </div>
     );
 };
