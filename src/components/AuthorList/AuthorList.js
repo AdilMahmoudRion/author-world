@@ -1,9 +1,11 @@
+// creat author list
 import React, { useEffect, useState } from "react";
 import AddCart from "../AddCart/AddCart";
 import Author from "../Author/Author";
 import "./AuthorList.css";
 
 const AuthorList = () => {
+  // us state declare
   const [Authors, setAuthor] = useState([]);
   useEffect(() => {
     fetch("./AuthorList.JSON")
@@ -11,6 +13,7 @@ const AuthorList = () => {
       .then((data) => setAuthor(data));
   }, []);
     
+  // function of button
   const [addAuthor, setAddAuthor] = useState([]);
    const authorAddToCart = (author) => {
      const newCart = [...addAuthor, author];
